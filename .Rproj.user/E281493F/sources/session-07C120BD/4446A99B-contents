@@ -1,0 +1,153 @@
+---
+title: "Students' attitudes towards AI in Psychiatry"
+bibliography: "../config/refs_gen.bib"
+csl: "../config/apa.csl"
+shorttitle: "AI in Psychiatry"
+author: "Anne, Susanne, & Eesha "
+format: 
+  docx:
+    reference-doc: "../config/template_word.docx"
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+
+```{r analysis-preferences}
+
+# Seed for random number generation
+set.seed(42)
+```
+
+
+# Intro to the intro 
+Some text
+
+## More introductory stuff
+
+
+# Introduction
+
+The increasing number of people suffering from mental health conditions is a substantial concern for the world's population. Psychotherapy is effective in tackling mental health problems. However, due to the high demand, psychotherapeutic interventions are not always available when needed. Individuals suffering from severe mental health problems may remain untreated because psychotherapists cannot take on more patients. In addition, over the past decades, little has changed concerning how psychotherapy is delivered [@johnsen_friborg15]. A lack of targeted feedback, care quality monitoring, and stagnation in terms of further education and training of (prospective) psychotherapists may hinder the implementation of effective interventions [@cummins_etal19, @hirsch_etal18, @schwalbe_etal14].  
+
+Specific artificial intelligence (AI) technologies for mental health care may leverage these problems. In their scoping review of machine learning in psychotherapy research, @aafjes-vandoorn_etal21 identified 51 studies that developed and tested a machine learning algorithm focused on selecting appropriate treatment regimes and predicting treatment adherence, as well as therapist skill development. Intelligent systems have been developed that aid in diagnosing mental health diseases or recognizing the severity of a mental health condition to ensure timely and optimal care for severely affected individuals [@huang_etal18, @stasak_epps17]. In addition, AI tools may improve the quality of psychotherapeutic training and education. Specifically, AI tools have been developed that analyze data gathered from therapist-patient conversations to provide performance-specific feedback, thus potentially enhancing motivational interviewing performance [@cummins_etal19, @hirsch_etal18, @tanana_etal19a, @imel_etal19a]. 
+
+Despite a large amount of academic knowledge and efforts to develop user-friendly applications, AI systems are still hardly utilized in clinical care [@sendak_etal20]. 
+Technical and administrative difficulties, such as the inaccuracy of predictions, accuracy-interpretability trade-offs, and data privacy issues, complicate the use of AI tools in diagnosis and prognosis and selecting treatment approaches [@lee_etal21, @roth_etal21, @chen_etal22, @kelly_etal19, @chekroud_etal21, @aafjes-vandoorn_etal21]. In addition, it is often not apparent to practitioners how AI-based recommendations are generated.
+Despite attempts to enhance the explainability of AI recommendations, such as the Explainable Artificial Intelligence (XAI) Initiative, the complexity of deep learning approaches necessarily limits the extent to which they can be made accessible to a broader user group [@feldman_etal19]. 
+Especially in mental health care, where transparency and the explainability of clinical decision-making are highly valued, the black box problem of AI-based recommendations creates a significant obstacle to its adoption into practice [@aafjes-vandoorn_etal21, @chekroud_etal21, @kelly_etal19].
+
+The unified theory of acceptance and use of technology [UTAUT; @venkatesh22, @venkatesh_etal03, @venkatesh_etal16] provides a theoretical framework that explains the relationship between these obstacles and the intention to use AI tools. The UTAUT includes four main predictors of intention to use a specific technology: a) performance expectancy, defined as the degree to which an individual believes that using a system will enhance their performance, b) effort expectancy, as the degree of ease associated with the use of a system, c) social influence, as referring to the perception that important others believe that they should use the system, and d) facilitating conditions, as the belief that the organizational infrastructure exists to support the use of the system. In addition, the UTAUT proposes context (e.g., location), user (e.g., age), and technology attributes (e.g., as moderators of these relationships [@venkatesh_etal16, venkatesh_etal03]. The UTAUT has been used to explain medical staff and students' attitudes towards using AI technology [@fan_etal20, @tran_etal21, @zhai_etal21, @tamori_etal22]. However, to our knowledge, only one study so far has investigated the predictors of technology acceptance and use in the mental health domain [@gado_etal22]. Specifically, @gado_etal22 found that general perceived usefulness and perceived ease of use positively predict intention to use AI tools. The effect was mediated through favorable attitudes towards AI. In addition, the authors identified knowledge about AI tools as a direct predictor of the intention to use. 
+
+Based on the UTAUT framework and previous research findings, the first goal of the current research is to test the applicability of the UTAUT in the mental health context to better understand the factors that inhibit and increase the willingness to accept AI-based advice [@gado_etal22, @venkatesh22, @venkatesh_etal03, @venkatesh_etal16]. In Study 1, we investigate the relevance of UTAUT predictors for the intention to use AI tools among samples of psychology students specialized in clinical psychology. In contrast to established practitioners, psychology students are less influenced by habits that may hinder the adoption of new AI tools [@venkatesh_etal16]. In addition, due to the need for further education to become psychotherapists, several opportunities arise to influence students' acceptance of AI positively (e.g., at university or during psychotherapy training).      
+
+Psychotherapy includes multiple tasks, such as crisis intervention, selecting appropriate long-term treatment plans, and ensuring high-quality care. The acceptance of AI-based technology may differ between different psychotherapeutic tasks. For example, students with a positive attitude toward AI tools that provide targeted feedback based on the analysis of patient-practitioner interactions may still be skeptical about using AI to assess disease severity. Accordingly, in Study 1, we extend previous research findings by investigating the predictors of the intention to use two AI-based mental health tools with different foci already available to mental health practitioners. The first tool is a speech-based diagnostic device used to detect the severity of a mental health condition to deliver timely care to severely affected individuals (similar to the Sonde Health smartphone speech elicitation app; @huang_etal18). The second tool analyses therapeutic conversations between practitioner and patient to deliver targeted feedback to psychotherapists based on the principles of motivational interviewing after the session (similar to CORE-MI; @hirsch_etal18).  
+
+Based on the concept of technology knowledge, skills, and attitudes [KSA; @seufert_etal21], @gado_etal22 argue that students' attitudes towards AI may be influenced by their knowledge and understanding of the tool itself. A basic understanding of how the recommendations the AI tool makes are derived may leverage some ethical concerns and strengthen students' competence in using the tool, thus potentially increasing their acceptance of the tool [@seufert_etal21, @gado_etal22]. The second goal of the current research is to examine the effectiveness of a skill-based intervention on the intention to use the two previously described AI tools. Thus, in Study 2, we test the effects of a skill-based intervention on students' intention to use the two AI tools described above. By examining the influence of knowledge about AI tools in an experimental setting, we provide a detailed test of the knowledge hypothesis proposed by @gado_etal22. 
+
+
+# Theory Development
+
+## Applications of AI in Psychotherapy Practice
+
+## The Application of AI Tools to Assess the Severity of Mental Health Conditions
+
+## The Application of AI Tools to Improve Psychotherapy Quality 
+
+Supervision and receiving performance feedback on their therapy sessions support psychotherapy trainees' skills acquisition and increase retention [@tanana_etal19, @moyers_etal05, @helgeronnestad_ladany06]. However, providing ongoing feedback is labor intensive and thus rarely used in training. Accordingly, feedback is often based on trainees' self-reports and is usually only available long after the session [@tanana_etal19]. 
+Using artificial intelligence technology for training purposes in mental health care may leverage the problem by providing immediate and performance-specific feedback to psychotherapists and trainees. 
+
+Most tools developed to improve psychotherapy quality rely on natural language processing-based feedback [e.g., @atkins_etal14, @hirsch_etal18, @cummins_etal19, @can_etal16, @tanana_etal19]. For example, _TIM_ (Therapy Insights Model) uses real-time chat messages exchanged between therapists and patients to provide therapists with feedback regarding the topics that were sufficiently covered in the session and the topics that should be addressed in the following sessions [@cummins_etal19]. _CORE-MI_ (Counselor Observer Ratings Expert for Motivational Interviewing uses audio recordings of motivational interviewing (MI) sessions to generate feedback on psychotherapists' adherence to MI principles. The user receives feedback on six summary measures of MI fidelity: empathy, MI spirit, reflection-to-question ratio, percent open questions, percent complex reflections, and percent MI adherence. _CORE-MI_ includes a visual summary of counseling sessions based on the fidelity assessment that the therapist may use to improve their MI performance [@hirsch_etal18]. Similar tools include the _ClientBot_, a training tool that mimics typical patient responses to therapist questions and provides real-time feedback on therapists' use of open questions and reflections [@tanana_etal19]; or _Partner_, a reinforcement learning agent that may increase the quality of mental health support conversations by suggesting sentence-level edits to posts that enhance the level of empathy while maintaining conversation quality [@sharma_etal21]. 
+
+## The Unified Theory of Acceptance and Use of Technology (UTAUT) as a Theoretical Framework
+
+## The Role of Specific Knowledge 
+
+# Study 1 
+
+## Methods
+
+###  Participants
+
+[@pintodossantos_etal19]: "The questionnaire was sent out via email and advertised on social media to undergraduate medical students at three major German universities (University of Cologne, University of Bonn, University of Mainz). Participation was voluntary and had no relation to the student's curricular activities. The students were informed that the survey results would be used for further statistical evaluation and scientific publication. Respondent anonymity was guaranteed by design [...]."
+
+### Measurement Instruments 
+
+#### AI tools
+
+##### Severity Detection Tool
+
+![Sonde Health voice detection](../figs/sonde.png)
+
+##### Therapist Feedback Tool 
+
+![Core MI Feedback Tool](../figs/core_mi_report.png)
+
+
+#### Independent Variables Based on UTAUT
+
+- Perceived social norm [@venkatesh_etal03, @gado_etal22]; all slightly adapted:
+  - "I believe that when I work as a psychotherapist, people who will influence my professional behavior think that I should use [short tool description]." 
+  - "I believe that when I work as a psychotherapist, people who will be important to me think that I should use [short tool description]." (slightly adapted)
+  - "I believe that when I work as a psychotherapist, my supervisors will help me in the use of [short tool description]." (slightly adapted)
+  - "I believe that when I work as a psychotherapist, the institution I work at will support the use of [short tool description]." (slightly adapted)
+  
+
+- Performance expectancy (perceived usefulness) [@venkatesh_etal03, @gado_etal22]; all slightly adapted:
+  - "[short tool description] may be useful in my future job." 
+  - "Using [short tool description] may enable me to accomplish tasks more quickly."
+  - "Using [short tool description] may increase my productivity as a psychotherapist."
+  - EXCLUDE: "If I use [short tool description], I will increase my chances of getting a raise."
+  - ADD: "Using [short tool description] may improve the quality of my care."
+  - CONTACT @gado_etal22 and ask for items! 
+  
+- Effort expectancy (perceived ease of use) [@venkatesh_etal03, @gado_etal22]; all slightly adapted:
+  - "How to use [short tool description] would be clear and understandable."
+  - "It would be easy for me to become skillful at using [short tool description]."
+  - "I would find [short tool description] easy to use."
+  - "Learning to operate [short tool description] would be easy for me."
+  
+Facilitating conditions [@venkatesh_etal03]; all slightly adapted:
+  - "I believe that I will have the resource necessary to use [short tool description]."
+  - "I believe that I will have the knowledge necessary to use [short tool description]."
+  - "I believe that [short tool description] will be compatible with other tools I will use as a psychotherapist." (was originally reverse coded, but I would frame this positively for methodological reasons)
+  - "I believe that a specific person (or group) will be available for assistance with difficulties with the use of [short tool description]." 
+  
+- Voluntariness of use [@venkatesh_etal03]; all slightly adapted:
+  - "Although it might be helpful, using [short tool description] will certainly not be compulsory in my job."
+  - "I believe that my boss or supervisor will not require me to use [short tool description]."
+  - "I believe that my boss or supervisor will not expect me to use [short tool description]." (was originally reverse coded, but I would frame this positively for methodological reasons)
+  - "My use of [short tool description] would be voluntary (as opposed to required by superiors/job)."
+
+- Knowledge of the tool [@gado_etal22]:
+  - "Please rate your understanding of how the recommendations delivered by [short tool description] are derived [in comparison to your fellow students]."
+  
+
+#### Dependent Variable: Intention to Use the Tool 
+
+- Intention to use the tool [@venkatesh_etal03, @gado_etal22]; all slightly adapted:
+  - "I intend to use [short tool description] in my future job as a psychotherapist."
+  - "I predict I would use [short tool description] in my future job as a psychotherapist."
+  - "I plan to use [short tool description] in my future job as a psychotherapist."
+
+#### Additional Variables and Control Variables
+
+- Technology readiness
+- Perceived trust in the tool/ credibility
+- Professional identity 
+- General technology affinity 
+- Computer self-efficacy 
+- Technostress
+- Relevant education content (stats course)
+- Personality [@park_woo22]
+- Data privacy concerns 
+- affective, cognitive, behavioral attitudes towards AI [@park_woo22]
+
+
+
+\newpage
+
+# References
+
+::: {#refs custom-style="Bibliography"}
+:::

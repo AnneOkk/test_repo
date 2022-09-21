@@ -1,0 +1,14 @@
+{
+  "hash": "1748e3d9137ea16629b6c65b85cfb277",
+  "result": {
+    "markdown": "---\ntitle: \"test_run3\"\nauthor: \"Anne\"\nformat: html\nbibliography: \"../resources/My_Library.bib\"\ncsl: \"../resources/apa.csl\"\nexecute:\n  cache: true\n---\n\n# Workshop Quarto \n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## *Running Code*\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell hash='first_document_cache/html/unnamed-chunk-1_1312aa6736435fcdd65e87e0c98ceffe'}\n\n```{.r .cell-code}\n7*6\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 42\n```\n:::\n:::\n\n::: {.cell hash='first_document_cache/html/fig-airquality_096d54d43fa44e994ab7aed7ade933de'}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point(show.legend = NA) + \n  geom_smooth(method = \"loess\") \n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](first_document_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n\n\n@bhandaro_etal44\n\n\n::: {.cell hash='first_document_cache/html/unnamed-chunk-3_19240fb3bc97a1b339439cc1f49e5f90'}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\nYou can add options to executable code like this\n\n\n\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n\n### Running code via terminal\n\n## Theory \n\nHere's someone who said sth interesting:\n@gomezpenedo_etal22, p. 22\n\nanother ref: \n@aafjes-vandoorn_etal21\n\nanother ref: \n@ailia_etal22\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

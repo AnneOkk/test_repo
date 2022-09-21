@@ -1,0 +1,62 @@
+---
+title: "test_run3"
+author: "Anne"
+format: html
+bibliography: "../resources/My_Library.bib"
+csl: "../resources/apa.csl"
+execute:
+  cache: true
+---
+# Workshop Quarto 
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## *Running Code*
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+7*6
+```
+
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: Temperature and ozone level.
+#| warning: false
+library(ggplot2)
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point(show.legend = NA) + 
+  geom_smooth(method = "loess") 
+```
+
+
+
+```{r}
+#| echo: false
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| include: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+### Running code via terminal
+
+## Theory 
+
+Here's someone who said sth interesting:
+@gomezpenedo_etal22, p. 22
+
+another ref: 
+@aafjes-vandoorn_etal21
+
+another ref: 
+@ailia_etal22
